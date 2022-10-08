@@ -1,0 +1,129 @@
+/* .first{
+    position: fixed;
+} */
+
+header{
+    position: fixed;
+    background-color: yellow;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    display: flex;
+    z-index: 1000;
+    flex-flow: column;
+    padding: 8rem, 2rem;
+    align-items: center;
+}
+.div1 img{
+    
+    padding-top: 20%;
+}
+.div1{
+    background-color: black;
+    height:100%;
+    width: 90px;
+}
+.div1 button{
+    background-color: black;
+    font-size: 1.9rem;
+    margin-top: 20px;
+    border: 2px solid black;
+}
+.div1 i{
+    color: white;
+}
+.div2{
+    background-color: yellow;
+    height: 250px;
+    width: 90px;
+}
+.div2 button{
+    background-color: yellow;
+    font-size: 1.3rem;
+    border-radius: 50%;
+    margin-top: 30px;
+    border: 2px solid black;
+}
+body{
+    margin-left: 80px;
+    background-image: linear-gradient(rgba(0, 0, 0 , 0.5), rgba(0, 0, 0 , 0.5)),url("burger.jpg");
+    background-attachment: fixed;
+    background-size : 100% 100% ;
+} 
+h1{
+    margin-top: 7%;
+    font-size: 50px;
+    font-family: cursive;
+}
+.span1{
+    writing-mode: sideways-lr;
+    font-size: 10px;
+}
+ .btn1{
+    background-color:yellow;
+    color: black;
+    border-color:yellow;
+    padding: 10px 20px;
+    text-align: center;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 2px 55px;
+    border-radius: 1px;
+} 
+.btn2{
+    background-color:yellow;
+    color: black;
+    border-color:yellow;
+    padding: 10px 20px;
+    text-align: center;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 2px 55px;
+    border-radius: 1px;
+}
+.navbar li {
+    margin: 20px;
+    list-style: none;
+    display: inline;
+
+
+}
+.navbar{
+    display: inline-block;
+}
+ul{
+    display: inline;
+    width: 20px
+}
+
+.navbar li a {
+    text-decoration: none;
+    color: white;
+}
+
+.hoveritem a:hover {
+    border-bottom: 2px solid yellow;
+   
+
+}
+h1{
+    margin-left: 4%;
+}
+.div3{
+    background-color: yellow;
+    padding: 2%;
+    width: 250px;
+}
+.fa {
+    padding: 20px;
+  text-align: center;
+    margin: 5px 2px;
+    font-size: 30px;
+    width: 50px;
+  }
+  .fa-facebook {
+    border-radius:7000px;
+    border-color: black;
+    color: black;
+  }
+  
